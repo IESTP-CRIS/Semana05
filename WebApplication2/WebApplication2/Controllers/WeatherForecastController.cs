@@ -49,6 +49,7 @@ namespace WebApplication2.Controllers
         {
             string mensaje = string.Empty;
             Alumno Alumno3 = new Alumno("Cristian", "Zapata", "74361671", new DateTime(2005, 2, 14));
+            string numero = "siete";
             return Alumno3.CalcularEdad();
         }
     }

@@ -1,0 +1,84 @@
+[
+  {
+    "ContainingType": "EjercicioS4.Controllers.WeatherForecastController",
+    "Method": "calculararea",
+    "RelativePath": "WeatherForecast/calculararea",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "EjercicioS4.Controllers.WeatherForecastController",
+    "Method": "CalcularEdad",
+    "RelativePath": "WeatherForecast/CalcularEdad/{nombre}/{edad}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nombre",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "edad",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "EjercicioS4.Controllers.WeatherForecastController",
+    "Method": "CalcularGeneracion",
+    "RelativePath": "WeatherForecast/CalcularGeneracion/{anioNacimiento}/{nombre}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "anioNacimiento",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "nombre",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
